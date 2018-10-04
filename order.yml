@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: order
+  datasource:
+      driver-class-name: com.mysql.jdbc.Driver
+      username: root
+      password: 123456
+      url: jdbc:mysql://localhost:3306/springcloud_sell?characterEncoding=utf-8&useSSL=false
+ribbon:
+  ReadTimeout: 60000
+  ConnectTimeout: 60000
